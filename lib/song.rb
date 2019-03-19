@@ -19,12 +19,12 @@ class Song
 
   def artists
     artists = @@artists
-    artists.unique
+    artists.uniq
   end
 
   def genres
     genres = @@genres
-    genres.unique
+    genres.uniq
   end
 
   def genre_count
