@@ -8,7 +8,7 @@ artists = {}
     @@song_count
   end
 
-  def artists
+  def artists(artists)
     artists
   end
 
