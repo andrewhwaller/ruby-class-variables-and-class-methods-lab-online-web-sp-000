@@ -19,8 +19,7 @@ class Song
   end
 
   def artists
-    artists = @@artists
-    artists.uniq
+    @@artists.uniq
   end
 
   def genres
