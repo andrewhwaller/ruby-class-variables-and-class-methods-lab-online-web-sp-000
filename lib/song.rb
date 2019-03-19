@@ -18,7 +18,7 @@ class Song
     artists
   end
 
-  def genres
+  def genres(@@genres)
     genres = @@genres.uniq
     genres
   end
