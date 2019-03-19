@@ -4,6 +4,7 @@ class Song
   @@count = 0
   @@genre_count = 0
   @@artist_count = 0
+  @@genres = []
 
   def initialize
     @@count += 1
@@ -18,6 +19,7 @@ class Song
   end
 
   def genres
+    genres = @@genres.uniq
     genres
   end
 
