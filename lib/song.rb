@@ -23,5 +23,5 @@ class Song
   def artist_count
     @@artist_count
   end
-  
+
 end
