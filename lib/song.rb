@@ -18,6 +18,10 @@ class Song
     @@count
   end
 
+  def self.artist_count
+    @@artist_count
+  end
+
   def self.artists
     @@artists.uniq
   end
@@ -37,9 +41,4 @@ class Song
       genre_histo
     end
   end
-
-  def self.artist_count
-    @@artist_count
-  end
-
 end
