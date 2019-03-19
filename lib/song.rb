@@ -32,7 +32,7 @@ class Song
       if genre_histo[genre]
         genre_count += 1
       else
-        genre_histo[genre]
+        genre_histo[genre] = 1
       end
       genre_histo
   end
